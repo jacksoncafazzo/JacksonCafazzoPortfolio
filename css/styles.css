@@ -17,13 +17,17 @@ body {
   padding-left: 20px;
 }
 
-.navbar-default {
-  background-color: #0099ff;
-  border-color: #0099ff
+.navbar-default .nav {
+    background-color: #0099cc;
+    border-color: #E7E7E7;
+    color: #ffffff;
 }
-
-.navbar-default .navbar-brand {
-  color: #0033cc;
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #0099cc;
+    color: #0099cc;
 }
 
 .item img {
