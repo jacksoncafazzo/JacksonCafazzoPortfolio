@@ -1,3 +1,7 @@
+body {
+  background-image: url('../ignasi_pattern_s.png');
+}
+
 .container {
   padding-top: 25px;
 }
@@ -6,6 +10,20 @@
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.container2 {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.navbar-default {
+  background-color: #0099ff;
+  border-color: #0099ff
+}
+
+.navbar-default .navbar-brand {
+  color: #0033cc;
 }
 
 .item img {
@@ -36,6 +54,10 @@ h2 {
 
 .col-sm-4 p {
   color:#8E8E8E
+}
+
+.col-md-3 {
+  float: left;
 }
 
 .btn1 {
