@@ -61,7 +61,8 @@ h2 {
 }
 
 .col-md-3 {
-  float: left;
+  float: right;
+  max-width: 300px;
 }
 
 .btn1 {
@@ -81,7 +82,10 @@ img {
 .row1 {
   padding-top: 50px;
   text-align: center;
+}
 
+.row3 {
+  align-items: center;
 }
 /*.button {
   margin: auto;
