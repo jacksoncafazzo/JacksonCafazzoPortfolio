@@ -1,0 +1,101 @@
+.App {
+
+}
+
+.banner {
+  width:100%;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.catalog-index {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+.section-tabs-container {
+  /*display: flex;
+  flex-flow: row wrap;
+  width: 100%;*/
+}
+
+.index-card {
+  width: 100%;
+  padding: 1%;
+
+  /*display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;*/
+}
+
+.genus-actions {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.genus-card {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 100%;
+  justify-content: flex-start;
+
+}
+
+.genus-card-header {
+  font-weight: 500;
+}
+
+.genus-card-variety {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.variety-card {
+  display: flex;
+  min-width: 600px;
+  flex-flow: column wrap;
+
+}
+
+.variety-contents {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+}
+
+.variety-img {
+  display: flex;
+  align-self: center;
+
+}
+
+ul.variety-list {
+  margin-left: -35px;
+  padding-right: 20px;
+  max-width: 250px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: 'Vollkorn', serif;
+}
+
+.variety-card-header {
+  font-weight: 500;
+  font-family: 'Vollkorn', serif;
+}
+
+.variety-actions {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}

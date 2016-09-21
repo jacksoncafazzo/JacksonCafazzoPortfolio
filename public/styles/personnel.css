@@ -1,0 +1,37 @@
+.personnel-index-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-between;
+  margin-top: 20px;
+}
+
+.personnel-card {
+  display: flex;
+  max-width: 300px;
+  min-height: 500px;
+  margin-bottom: 30px;
+}
+
+.personnel-title {
+  display: flex;
+  align-self: flex-start;
+}
+
+.personnel-address-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 20px;
+}
+
+.address {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Vollkorn, serif';
+}
